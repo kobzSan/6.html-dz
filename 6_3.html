@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MyPage </title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-color: #F0F8FF;
+		border: 2px solid gray;
+	}
+	header {
+		border: 1px solid #F0F8FF;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+	h1	{
+		text-align: center;
+		font-family: Courier New;
+		font-size: 50px;
+		flex-grow: 1;
+	}
+	nav ul {
+		border: 2px solid #808080;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	nav li {
+		list-style-type: none;
+		display: inline;
+		font-size: 16px;
+	}
+	h2 {
+		text-align: center;
+	}
+	.block1, .block2 {
+		border: 2px solid #808080;
+	}
+	.block1 {
+		padding: 20px;
+		flex: 1;
+	}
+	.block2 {
+		flex: 1;
+	}
+	#para {
+		display: flex;
+		flex-direction: row;
+	}
+	#pic {
+		width: 90%;
+		margin: 0 auto;
+		text-align
+	}
+	#pic img {
+		width: 40%;
+		margin: 10px;
+	}
+	footer {
+		background:linear-gradient(45deg, #FAEBD7, #F0F8FF, #808080);
+		padding: 5px;
+		text-align: center;
+		font-size: 16pt;
+	}
+</style>
+</head>
+<body>
+<header>
+	<h1>Кошка</h1>
+	<img width="350" src="http://pipcat.ru/wp-content/uploads/2016/08/kedilere-strese-sokabilecek-durumlar1.jpg">
+</header>
+<nav>
+	<ul>
+		<li><a href="6.html">Собаки главная</a></li>
+		<li><a href="6_1.html">Собаки породы</a></li>
+		<li><a href="6_2.html">Коты главная</a></li>
+		<li><a href="6_3.html">Коты породы</a></li>
+	</ul>
+</nav>
+<div id="para">
+	<div class="block1">
+		<p>Порода кошек — разряд классификации кошек. Это относительно новое понятие. Двести лет назад его ещё не существовало.
+			<br>Породистыми считаются кошки, обладающие определёнными чертами или свойствами, присущими одной из зарегистрированных пород, а также их необычными свойствами. Также у породистой кошки обязательно должен быть документ подтверждающий её породность (родословная или сертификат соответствия породе).
+			<ol>
+				<li>Британская короткошёрстная</li>
+				<li>Бурма (Бурманская)</li>
+				<li>Американская жесткошёрстная</li>
+				<li>Гавана</li>
+				<li>Гималайская кошка</li>
+				<li>Девон рекс</li>
+				<li>Йорк</li>
+				<li>Кимрик</li>
+				<li>Русская голубая</li>
+				<li>Сибирская</li>
+			</ol>
+		</p>
+	</div>
+	<div class="block2">
+		<h2>ФОТО</h2>
+		<div dir="pic">
+			<img align="center" width="250" src="https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3436-6662-4565-a265-623230646237__20160601_gaf_uw8_185.jpg">
+			<img align="center" width="250" src="https://i.ytimg.com/vi/yOmXMtPXbsE/maxresdefault.jpg">
+			<img align="center" width="250" src="https://vignette.wikia.nocookie.net/catsandcats/images/b/bc/Image-1442513842.jpg/revision/latest?cb=20150917181722&path-prefix=ru">
+			<img align="center" width="250" src="https://www.royal-canin.ru/upload/medialibrary/8ec/siam.jpg">
+		</div>
+	</div>
+</div>
+</body>
+<footer>
+	<p>
+		Кот-символ теплоты и уюта.
+	</p>
+</footer>
+</html>

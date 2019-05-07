@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MyPage </title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background-color: #F0F8FF;
+		border: 2px solid gray;
+	}
+	header {
+		border: 1px solid #F0F8FF;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+	h1	{
+		text-align: center;
+		font-family: Courier New;
+		font-size: 50px;
+		flex-grow: 1;
+	}
+	nav ul {
+		border: 2px solid #808080;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	nav li {
+		list-style-type: none;
+		display: inline;
+		font-size: 16px;
+	}
+	h2 {
+		text-align: center;
+	}
+	.block1, .block2 {
+		border: 2px solid #808080;
+	}
+	.block1 {
+		padding: 20px;
+		flex: 1;
+	}
+	.block2 {
+		flex: 1;
+	}
+	#para {
+		display: flex;
+		flex-direction: row;
+	}
+	#pic {
+		width: 90%;
+		margin: 0 auto;
+		text-align
+	}
+	#pic img {
+		width: 40%;
+		margin: 10px;
+	}
+	footer {
+		background:linear-gradient(45deg, #FAEBD7, #F0F8FF, #808080);
+		padding: 5px;
+		text-align: center;
+		font-size: 16pt;
+	}
+</style>
+</head>
+<body>
+<header>
+	<h1>Собаки</h1>
+	<img width="250" src="http://www.skiff-pharm.ru/images/dog-looks.jpg">
+</header>
+<nav>
+	<ul>
+		<li><a href="6.html">Собаки главная</a></li>
+		<li><a href="6_1.html">Собаки породы</a></li>
+		<li><a href="6_2.html">Коты главная</a></li>
+		<li><a href="6_3.html">Коты породы</a></li>
+	</ul>
+</nav>
+<div id="para">
+	<div class="block1">
+		<p>Порода собак — совокупность близкородственных и внешне подобных друг другу собак, которые относятся к подвиду Canis lupus familiaris, обладают характерными особенностями, которые получены путём селекции и поддерживаются человеком, а также ведут своё происхождение от известной группы собак.
+			<br>Породы собак не являются научно определяемой биологической классификацией, являясь группами собак, определяемыми клубами любителей по интересам, которые называются клубами любителей собак или какой-то отдельной породы собак.
+			<ol>
+				<li>Австралийская овчарка (Аусси)</li>
+				<li>Австралийский терьер</li>
+				<li>Австралийский хилер</li>
+				<li>Акита ину</li>
+				<li>Аляскинский маламут</li>
+				<li>Английский коккер спаниель</li>
+				<li>Английский бульдог</li>
+				<li>Аффенпинчер</li>
+				<li>Бигль</li>
+				<li>Бладхаунд</li>
+			</ol>
+		</p>
+	</div>
+	<div class="block2">
+		<h2>ФОТО</h2>
+		<div dir="pic">
+			<img align="center" width="250" src="https://petsi.net/images/dogbreed/big/17.jpg">
+			<img align="center" width="250" src="https://petsi.net/images/dogphotos/beagle.jpg">
+			<img align="center" width="250" src="https://petsi.net/images/dogphotos/bloodhound.jpg">
+			<img align="center" width="250" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Racib%C3%B3rz_2007_082.jpg/1200px-Racib%C3%B3rz_2007_082.jpg">
+		</div>
+	</div>
+</div>
+</body>
+<footer>
+	<p>
+		Добрый хозяин, хороший пес!
+	</p>
+</footer>
+</html>
